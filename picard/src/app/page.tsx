@@ -14,6 +14,11 @@ function sayHello() {
   alert('Loading');
 }
 
+// metadata doesnt work with use client
+// export const metadata = {
+//   title: "PICARD",
+//   description: "hdbhbdcs",
+// }
 
 
 export default function Home() {
