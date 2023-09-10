@@ -18,7 +18,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col  justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-right justify-between font-mono text-lg lg:flex">
          {/* The following code shows the logo in the top left corner and takes you back to the login page when clicked*/}
-      <Link href="/">
+      <Link href="/homepage">
            <button  style={{
           background: 'dark-grey',
         }}>

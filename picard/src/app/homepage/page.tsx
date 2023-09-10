@@ -8,7 +8,7 @@ export default function Home() {
     <main className="main-container">
       <div className="max-w-5xl w-full items-center justify-between font-mono text-lg lg:flex">
         {/* The following code shows the logo in the top right corner and takes you back to the login page when clicked*/}
-        <Link href="/">
+        <Link href="/homepage">
           <button className="logo-button">
             <Image src="/logo.png" width={100} height={100} alt="" />
           </button>
