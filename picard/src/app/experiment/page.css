@@ -18,12 +18,13 @@
     background: dark-grey;
   }
 
+  
 .my-element {
   border: .25px solid #3f3f46 ; /* Added border property */
   border-radius: 13px;
   padding: 17px; 
   backdrop-filter: blur(10px);
-  background-image: linear-gradient(to bottom, #0c0a09, #0c0a09);
+  background-image: linear-gradient(to bottom, #0c0a09, #27272a);
   backdrop-filter: blur(20px);
 }
 
