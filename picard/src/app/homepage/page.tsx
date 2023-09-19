@@ -21,7 +21,7 @@ export default function Home() {
                 background: 'dark-grey',
               }}
             >
-              <p className="my-element">
+              <p className="button">
                 Log Out
               </p>
             </button>
@@ -36,7 +36,7 @@ export default function Home() {
               background: 'dark-grey',
             }}
           >
-            <p className="my-element">
+            <p className="button">
               Create Experiment
             </p>
           </button>
@@ -48,7 +48,7 @@ export default function Home() {
               background: 'dark-grey',
             }}
           >
-            <p className="my-element">
+            <p className="button">
               Description of Algorithms
             </p>
           </button>
@@ -60,7 +60,7 @@ export default function Home() {
               background: 'dark-grey',
             }}
           >
-            <p className="my-element">
+            <p className="button">
               Past Results
             </p>
           </button>
