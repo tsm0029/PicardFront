@@ -32,6 +32,17 @@ export default function Home() {
             </button>
           </Link>
       </div>
+      <div style={{position:"absolute", float: "left", left:200, bottom:150}}> 
+             <div className="card">
+                <div className="chat-header">Results of Current Experiment</div>
+                <div className="chat-window">
+                    <ul className="message-list"></ul>
+                    </div>
+                    <div className="chat-input">
+                        
+      </div>
+      </div>
+      </div>
 
       <div>
         <div style={{position:"absolute", float: "left", left:525, top:100}}>

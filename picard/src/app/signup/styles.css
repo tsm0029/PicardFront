@@ -49,3 +49,22 @@
   border-color: #333;
   background-color: rgba(0, 0, 0, 0.3);
 }
+.input1 {
+  display: flex;
+  justify-content: space-between;
+  border: .25px solid #3f3f46 ; /* Added border property */
+  border-radius: 13px;
+  padding: 17px; 
+  background-image: linear-gradient(to bottom, #09090b, #09090b);
+  backdrop-filter: blur(20px);
+}
+
+.my-element {
+  display: flex;
+  justify-content: space-between;
+  border: .25px solid #3f3f46 ; /* Added border property */
+  border-radius: 13px;
+  padding: 17px; 
+  background-image: linear-gradient(to bottom, #0c0a09, #18181b);
+  backdrop-filter: blur(20px);
+}

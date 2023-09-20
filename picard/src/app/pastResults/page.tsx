@@ -26,6 +26,8 @@ export default function Results() {
                     </button>
                 </Link>
             </div>
+            
+
 
             <div>
                 <div style={{position:"absolute", float: "left", left:550, top:200}}>

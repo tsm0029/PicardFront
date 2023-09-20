@@ -52,6 +52,7 @@ export default function Home() {
         }}>
         </input>
         </p>
+        
         {/* The following code makes the input field for the password*/}
         <p className="input1">
           <input type="password" color='text-gray-950' id="password" placeholder='password' style={{
