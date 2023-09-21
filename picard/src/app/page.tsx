@@ -73,14 +73,14 @@ export default function Home() {
         <button  style={{
           background: 'dark-grey',
         }}> 
-        <p className="my-element">
+        <p className="button">
            Sign up</p></button> </Link>
            {/* The following code makes the login button that will take you to the homepage*/}
            <Link href="/homepage">
            <button  style={{
           background: 'dark-grey',
         }}>
-        <p className="my-element">
+        <p className="button">
            Log in</p></button> </Link> </div>
       
 

@@ -20,7 +20,7 @@ export default function Results() {
                         background: 'dark-grey',
                     }}
                     >
-                    <p className="my-element">
+                    <p className="button">
                         Return to Main
                     </p>
                     </button>
@@ -38,7 +38,7 @@ export default function Results() {
                             marginRight: 15,
                         }}
                     >
-                        <p className="my-element">
+                        <p className="button">
                             Experiment 1: Results and Metrics
                         </p>
                     </button>
@@ -47,7 +47,7 @@ export default function Results() {
                             background: 'dark-grey',
                         }}
                     >
-                        <p className="my-element">
+                        <p className="button">
                             Delete
                         </p>
                     </button>
@@ -61,7 +61,7 @@ export default function Results() {
                         marginRight: 15,
                     }}
                     >
-                        <p className="my-element">
+                        <p className="button">
                             Experiment 2: Results and Metrics
                         </p>
                     </button>
@@ -70,7 +70,7 @@ export default function Results() {
                             background: 'dark-grey',
                         }}
                     >
-                        <p className="my-element">
+                        <p className="button">
                             Delete
                         </p>
                     </button>
@@ -84,7 +84,7 @@ export default function Results() {
                         marginRight: 15,
                     }}
                     >
-                        <p className="my-element">
+                        <p className="button">
                             Experiment 3: Results and Metrics
                         </p>
                     </button>
@@ -93,7 +93,7 @@ export default function Results() {
                             background: 'dark-grey',
                         }}
                     >
-                        <p className="my-element">
+                        <p className="button">
                             Delete
                         </p>
                     </button>
@@ -107,7 +107,7 @@ export default function Results() {
                         marginRight: 15,
                     }}
                     >
-                        <p className="my-element">
+                        <p className="button">
                             Experiment 4: Results and Metrics
                         </p>
                     </button>
@@ -116,7 +116,7 @@ export default function Results() {
                             background: 'dark-grey',
                         }}
                     >
-                        <p className="my-element">
+                        <p className="button">
                             Delete
                         </p>
                     </button>
@@ -130,7 +130,7 @@ export default function Results() {
                         marginRight: 15,
                     }}
                     >
-                        <p className="my-element">
+                        <p className="button">
                             Experiment 5: Results and Metrics
                         </p>
                     </button>
@@ -139,7 +139,7 @@ export default function Results() {
                             background: 'dark-grey',
                         }}
                     >
-                        <p className="my-element">
+                        <p className="button">
                             Delete
                         </p>
                     </button>

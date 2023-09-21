@@ -26,7 +26,7 @@ export default function Home() {
                 background: 'dark-grey',
               }}
             >
-              <p className="my-element">
+              <p className="button">
                 Return to Main
               </p>
             </button>
@@ -53,7 +53,7 @@ export default function Home() {
                   marginRight: 25,
               }}
           >
-              <p className="my-element">
+              <p className="button">
                   Environment
               </p>
           </button>
@@ -62,7 +62,7 @@ export default function Home() {
                   background: 'dark-grey',
               }}
           >
-              <p className="my-element">
+              <p className="button">
                   Distribute
               </p>
           </button>
@@ -76,7 +76,7 @@ export default function Home() {
             width: 275,
           }}
         >
-          <p className="my-element">
+          <p className="button">
             Select Algorithm
           </p>
         </button>
@@ -89,7 +89,7 @@ export default function Home() {
             width: 250,
           }}
         >
-          <p className="my-element">
+          <p className="button">
             Number of Nodes
           </p>
         </button>
@@ -102,7 +102,7 @@ export default function Home() {
             width: 160,
           }}
         >
-          <p className="my-element">
+          <p className="button">
             Run Experiment
           </p>
         </button>
@@ -116,7 +116,7 @@ export default function Home() {
               width: 160,
             }}
           >
-            <p className="my-element">
+            <p className="button">
               Save Locally
             </p>
           </button>
@@ -129,7 +129,7 @@ export default function Home() {
               width: 160,
             }}
           >
-            <p className="my-element">
+            <p className="button">
               Delete Results
             </p>
           </button>

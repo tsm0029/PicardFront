@@ -64,7 +64,7 @@ export default function Home() {
            <button  style={{
           background: 'dark-grey',
         }}>
-        <p className="my-element">
+        <p className="button">
            Sign up</p></button> </Link>
            
 
