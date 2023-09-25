@@ -76,7 +76,7 @@
 import Image from 'next/image'
 import React  from 'react';
 import Link from 'next/link';
-import "./algor.css";
+import "./styles.css";
 
 export default function Results() {
     return (
@@ -93,23 +93,12 @@ export default function Results() {
             </div>
 
             <div>
+                
+                
+                
+
                 <div style={{position:"absolute", float: "left", left:550, top:200}}>
                     <button
-                        style={{
-                            background: 'dark-grey',
-                            width: 500,
-                            marginRight: 15,
-                        }}
-                    >
-                        <p className="button">
-                            Algorithm 1: Description
-                        </p>
-                    </button>
-                   
-                </div>
-                
-                <div style={{position:"absolute", float: "left", left:550, top:300}}>
-                    <button
                     style={{
                         background: 'dark-grey',
                         width: 500,
@@ -117,56 +106,16 @@ export default function Results() {
                     }}
                     >
                         <p className="button">
-                        Algorithm 2: Description
-                        </p>
-                    </button>
-                   
-                </div>
-
-                <div style={{position:"absolute", float: "left", left:550, top:400}}>
-                    <button
-                    style={{
-                        background: 'dark-grey',
-                        width: 500,
-                        marginRight: 15,
-                    }}
-                    >
-                        <p className="button">
-                        Algorithm 3: Description
+                        <label htmlFor="avatar">Upload New Algorithm</label><br />
+                        <input type="file" name="avatar" accept="image/png, image/jpeg" />
                         </p>
                     </button>
                     
                 </div>
 
-                <div style={{position:"absolute", float: "left", left:550, top:500}}>
-                    <button
-                    style={{
-                        background: 'dark-grey',
-                        width: 500,
-                        marginRight: 15,
-                    }}
-                    >
-                        <p className="button">
-                        Algorithm 4: Description
-                        </p>
-                    </button>
-                    
-                </div>
+               
 
-                <div style={{position:"absolute", float: "left", left:230, top:170}}>
-                <Link href="/addalgorithm">
-            <button
-              style={{
-                background: 'dark-grey',
-              }}
-            >
-              <p className="button">
-                Add Algorithm
-              </p>
-            </button>
-          </Link>
-                   
-                </div>
+             
                                 
             </div>
 
