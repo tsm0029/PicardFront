@@ -88,9 +88,22 @@ export default function Results() {
                     <Image src="/logo.png" width={100} height={100} alt="" />
                 </button>
                 </Link>
+                
 
                
             </div>
+            <div style={{position:"absolute", float: "left", left:1100, top:100}}>
+            <Link href="/homepage">
+            <button
+              style={{
+                background: 'dark-grey',
+              }}
+            >
+              <p className="button">
+                Return to Main
+              </p>
+            </button>
+          </Link></div>
 
             <div>
                 <div style={{position:"absolute", float: "left", left:550, top:200}}>
