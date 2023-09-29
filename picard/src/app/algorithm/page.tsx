@@ -82,9 +82,9 @@ export default function Results() {
     return (
         <main className="main-container">
 
-            <div className="max-w-5xl w-full items-center justify-between font-mono text-lg lg:flex">
+            <div  style={{position:"absolute", float: "left", left:250, top:30}}>
                 <Link href="/homepage">
-                <button className="logo-button">
+                <button className="">
                     <Image src="/logo.png" width={100} height={100} alt="" />
                 </button>
                 </Link>

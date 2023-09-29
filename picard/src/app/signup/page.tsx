@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React  from 'react';
 import Link from 'next/link';
 import { ChangeEvent, useState } from "react";
+import "./styles.css";
 
 // style={{
           
