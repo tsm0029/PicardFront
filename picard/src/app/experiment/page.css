@@ -52,6 +52,7 @@
   border: 1px solid #3f3f46;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 635px;
 }
 
 .chat-header {
@@ -81,7 +82,6 @@
   border-top: 1px solid #ccc;
 }
 
-
 .button {
   display: inline-block;
   padding: 12px 24px;
@@ -91,7 +91,6 @@
   background-image: linear-gradient(to bottom, #0c0a09, #18181b);
   position: relative;
   overflow: hidden;
-  
   color: white;
   z-index: 1;
  }

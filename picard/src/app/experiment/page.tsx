@@ -4,6 +4,7 @@ import React  from 'react';
 import Link from 'next/link';
 import { ChangeEvent, useState } from "react";
 import "./page.css";
+import Menu from "./Menu";
 
 function sayHello() {
   alert('Loading');
@@ -32,50 +33,48 @@ export default function Home() {
             </button>
           </Link>
       </div>
-      <div style={{position:"absolute", float: "left", left:670, bottom:10}}> 
-             <div className="card">
-                <div className="chat-header">Results of Current Experiment</div>
-                <div className="chat-window">
-                    <ul className="message-list"></ul>
-                    </div>
-               
-      </div>
-      </div>
 
-      <div>
-        <div style={{position:"absolute", float: "left", left:525, top:100}}>
-          <button
-            style={{
-                background: 'dark-grey',
-                width: 350,
-            }}
-          >
-            <p className="button">
-                Environment
-            </p>
-          </button>
-          <button
-              style={{
-                  background: 'dark-grey',
-              }}
-          >
-              <p>
-                  Distribute
-              </p>
-          </button>
+      <div style={{position:"absolute", float: "left", left:525, top:465}}> 
+        <div className="card">
+          <div className="chat-header">Results of Current Experiment</div>
+          <div className="chat-window">
+              <ul className="message-list"></ul>
+          </div>    
         </div>
       </div>
 
-      <div style={{position:"absolute", float: "left", left:525, top:190}}>
+      <div style={{position:"absolute", float: "left", left:525, top:100}}>
         <button
+          style={{
+              background: 'dark-grey',
+              width: 350,
+          }}
+        >
+          <p className="button">
+              Environment
+          </p>
+        </button>
+        <button
+            style={{
+                background: 'dark-grey',
+            }}
+        >
+            <p className="button">
+                Distribute
+            </p>
+        </button>
+      </div>
+
+      <div style={{position:"absolute", float: "left", left:525, top:190}}>
+      <button
           style={{
             background: 'dark-grey',
             width: 275,
           }}
         >
-          <p className="button">
-            Select Algorithm
-          </p>
+          <div className="button">
+            <Menu />
+          </div>
         </button>
       </div>  
         
