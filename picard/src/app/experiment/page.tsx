@@ -45,22 +45,21 @@ export default function Home() {
       <div>
         <div style={{position:"absolute", float: "left", left:525, top:100}}>
           <button
-              style={{
-                  background: 'dark-grey',
-                  width: 350,
-                  marginRight: 25,
-              }}
+            style={{
+                background: 'dark-grey',
+                width: 350,
+            }}
           >
-              <p className="button">
-                  Environment
-              </p>
+            <p className="button">
+                Environment
+            </p>
           </button>
           <button
               style={{
                   background: 'dark-grey',
               }}
           >
-              <p className="button">
+              <p>
                   Distribute
               </p>
           </button>
@@ -97,7 +96,7 @@ export default function Home() {
         <button
           style={{
             background: 'dark-grey',
-            width: 160,
+            width: 200,
           }}
         >
           <p className="button">
@@ -132,7 +131,6 @@ export default function Home() {
             </p>
           </button>
         </div>
-        
       </div>
 
       <div 
