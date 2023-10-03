@@ -65,7 +65,7 @@ export default function Home() {
         </button>
       </div>
 
-      <div style={{position:"absolute", float: "left", left:525, top:190}}>
+      <div style={{position:"absolute", float: "left", left:1020, top:280}}>
       <button
           style={{
             background: 'dark-grey',
@@ -74,6 +74,7 @@ export default function Home() {
         >
           <div className="button">
             <Menu />
+            
           </div>
         </button>
       </div>  
@@ -85,9 +86,15 @@ export default function Home() {
             width: 250,
           }}
         >
-          <p className="button">
-            Number of Nodes
+          <p className="button">   <label className="white text-sm">
+                Number of Nodes
+            </label>
+            <input type="number" min={0}  className="node" >
+              </input> 
           </p>
+         
+            
+          
         </button>
       </div>
 
