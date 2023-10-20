@@ -12,17 +12,17 @@ import { GoogleAuthProvider } from "firebase/auth";
 
 const app = initFirebase;
 console.log(app);
-const provider = new GoogleAuthProvider();
-const auth = getAuth();
+// const provider = new GoogleAuthProvider();
+// const auth = getAuth();
 
-const signIn =async () => {
-  const result = await signInWithPopup(auth, provider)
-  console.log(result.user)
-}
+// const signIn =async () => {
+//   const result = await signInWithPopup(auth, provider)
+//   console.log(result.user)
+// }
 
-function sayHello() {
-  alert("Loading");
-}
+// function sayHello() {
+//   alert("Loading");
+// }
 class SignUp extends React.Component{
     // const auth: Auth = getAuth();
     // const signUp = async () => {
@@ -87,7 +87,7 @@ class SignUp extends React.Component{
               background: "dark-grey",
             }}
           >
-            <p className="button" onClick={signIn}>Sign up</p>
+            <p className="button">Sign up</p>
           </button>{" "}
   
   

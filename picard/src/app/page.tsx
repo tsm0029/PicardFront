@@ -4,6 +4,7 @@ import React from "react";
 import Menu from "./components/menu";
 import { ChangeEvent, useState } from "react";
 import Link from "next/link";
+
 import "./styles.css";
 import {
   Auth,
@@ -74,12 +75,12 @@ export default function Home() {
               background: "dark-grey",
             }}
           >
-            <p className="button" onClick={signIn}>
+            <p className="button" onClick={signIn} >
               Sign up
             </p>
           </button>
         {/* The following code makes the login button that will take you to the homepage*/}
-        <Link href="/homepage">
+        <Link href="/testpages">
           <button
             style={{
               background: "dark-grey",
